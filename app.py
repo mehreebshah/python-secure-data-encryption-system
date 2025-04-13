@@ -10,7 +10,7 @@ from hashlib import pbkdf2_hmac
 # Constants
 DATA_FILE = "secure_data.json"
 SALT = b"secure_salt_value"
-LOCKOUT_DURATION = 60  # seconds
+LOCKOUT_DURATION = 60  # seconds duration 
 
 # Session state
 if "authenticated_user" not in st.session_state:
